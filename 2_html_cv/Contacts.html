@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="business, card, cv"/>
+    <meta name="description" content="lesson 3: cv"/>
+    <meta name="author" content="petrova"/>
+    <title>Contact form</title>
+</head>
+<body style = "text-align: left" bgcolor="#c8c8c8">
+<header>
+    <b>Curriculum vitae</b>
+</header>
+<nav>
+    <p>
+        <a href="CV.html" target="_self">Curriculum vitae</a>
+        <a href="Contacts.html" target="_self">Contact form</a>
+    </p>
+</nav>
+<article>
+    <section>
+        <h3>Send a message</h3>
+        <form method="get" action="sendForm.html">
+            <table>
+                <tr>
+                    <td><label for="name">Your Name:</label></td>
+                    <td><input type="text" name="login" id="name" placeholder="Enter your name" /></td></tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter your email" /></td></tr>
+                <tr>
+                    <td><label for="message">Write a message:</label></td>
+                    <td><textarea name="about" id="message" placeholder="Write a message"></textarea></td></tr>
+            </table>
+            <input type="submit" value="Send" />
+        </form>
+    </section>
+</article>
+<footer>&copy; 2018 - All right reserved</footer>
+</body>
+</html>
